@@ -135,11 +135,11 @@ const Pricing = () => {
                 ))}
               </ul>
 
-              <button
+              {/* <button
                 className={`w-full py-4 rounded-xl font-bold transition-all ${plan.popular ? "bg-brand-600 hover:bg-brand-500 text-white" : "bg-slate-800 hover:bg-slate-700 text-white"}`}
               >
                 Get Started
-              </button>
+              </button> */}
             </motion.div>
           ))}
         </div>

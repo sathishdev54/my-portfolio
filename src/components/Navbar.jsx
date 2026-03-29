@@ -87,7 +87,7 @@ const Navbar = () => {
             ))}
             <li>
               <a
-                href="#contact"
+                href="https://forms.gle/8hzP815ZxZes2rQU6"
                 className="block text-center mt-2 bg-brand-600 text-white px-4 py-3 rounded-lg font-semibold"
                 onClick={() => setIsOpen(false)}
               >

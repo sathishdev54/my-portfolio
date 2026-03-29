@@ -96,7 +96,7 @@ const Contact = () => {
             {/* CTA */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://calendly.com"
+                href="https://forms.gle/8hzP815ZxZes2rQU6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-brand-600 to-brand-500 text-white px-8 py-4 rounded-2xl font-semibold text-lg shadow-lg hover:shadow-brand-500/40 transition-all duration-300"
