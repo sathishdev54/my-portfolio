@@ -24,7 +24,7 @@ const Hero = () => {
             </span>
           </motion.div>
 
-          <motion.h1
+          {/* <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
@@ -36,6 +36,18 @@ const Hero = () => {
             </span>
             <br />
             Full Stack Developer.
+          </motion.h1> */}
+
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8"
+          >
+            We build websites that <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 via-purple-500 to-pink-500">
+              grow your business
+            </span>
           </motion.h1>
 
           <motion.p
@@ -62,7 +74,8 @@ const Hero = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="#contact"
+              href="https://forms.gle/8hzP815ZxZes2rQU6"
+              target="_blank"
               className="glass hover:bg-slate-800 text-white px-8 py-4 rounded-full font-bold text-lg transition-colors flex items-center gap-2 w-full sm:w-auto justify-center"
             >
               Contact Me
